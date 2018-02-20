@@ -1,0 +1,148 @@
+body{
+	background: radial-gradient(ellipse at center, rgba(254,255,255,1) 0%,rgba(210,235,249,1) 100%);
+}
+
+html, body, div{
+  font-family: monospace;
+}
+
+header {
+  color: #1C54F5;
+	font-size: 20px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	0px 8px 13px rgba(0,0,0,0.1),
+	0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.block_center{
+	text-align: left;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+div.clear{
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+}
+
+.left_sidebar{
+	width: 182px;
+	float: left;
+	margin: 0 11px;
+	position: relative;
+	margin-right: -193px;
+}
+
+.main_content{
+	display: inline-block;
+	width:60%;
+	margin-left: 200px;
+	float: left;
+	border-radius: 10px;
+	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.top_picture{
+	display: inline-block;
+	margin-left: 5px;
+	margin-bottom: 1px;
+	border-radius: 10px;
+	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.bottom_picture{
+	display: inline-block;
+	margin-left: 5px;
+	border-radius: 10px;
+	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.left_sidebar ul{
+	margin: 0px;
+  padding: 0px;
+  list-style:none;
+  width:180px;
+}
+
+.left_sidebar ul li{
+    position: relative;
+    border-bottom:1px solid #ccc;
+}
+
+.left_sidebar li ul{
+    position: absolute;
+    left: 180px;
+    top: 0;
+    display: none;
+}
+
+.left_sidebar ul li a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    background: #fff;
+    padding: 10px;
+}
+
+.left_sidebar li:hover ul{
+    display: block;
+}
+
+.left_sidebar li:hover ul a:hover{
+    background-color: #cccccc;
+    background-image:none;
+    color:#FFFFFF;
+}
+
+ul.firstmenu li{
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+	list-style-image: none;
+	position: 0;
+	width: 155px;
+	height: 32px;
+	text-align: center;
+	margin: 0 0 0 40px;
+}
+
+ul.firstmenu li:first-child{
+	margin: 0;
+}
+
+*html ul.firstmenu li:first-child{
+	margin: expression(this.previousSibling==null? '0':'0 0 0 14px');
+}
+
+ul.firstmenu li a{
+	color: #1C54F5;
+	text-decoration: none;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.pictures{
+	text-align: center;
+}
+
+.picture1, .picture2, .picture3, .picture4{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 10px;
+	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+div p, h3{
+	padding: 10px;
+}
+
+.text {
+  text-align: center;
+  font-size: 17px;
+}
+
+footer {
+	text-align: center;
+}
